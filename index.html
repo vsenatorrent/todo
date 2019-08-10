@@ -6,13 +6,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
-  <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
 
 
-  <section id="todo">
+  <!-- <section id="todo">
     <h2>my to do list</h2>
     <form action="">
       <input type="text" placeholder="Title..." class="input">
@@ -21,9 +20,36 @@
   </section>
   <ul id="list">
 
-  </ul>
+  </ul> -->
 
-
+<div class="todo-container">
+  <section class="todo">
+    <h1 class="section-caption">Add item</h1>
+    <form class="todo-wrapper">
+      <input type="text" class="todo-input">
+      <input type="submit" value="Add" class="todo-btn todo-add">
+    </form>
+  </section>
+  <section class="tasks">
+    <h1 class="section-caption">Todo</h1>
+    <!-- <div class="task-container">
+      <input type="checkbox" class="task-complete">
+      <input type="text" class="todo-input task-name" disabled>
+      <div class="task-buttons">
+          <button class="todo-btn task-edit">Edit</button>
+          <button class="todo-btn task-delete">Delete</button>
+      </div>
+    </div> -->
+  </section>
+  <section class="tasks-completed">
+      <h1 class="section-caption">Completed</h1>
+      <!-- <div class="completed-container">
+          <input type="checkbox" class="task-complete" checked>
+          <input type="text" class="todo-input task-name" disabled>
+          <button class="todo-btn task-edit">Edit</button>
+      </div> -->
+  </section>
+</div>
 
   <script src="js/script.js"></script>
 </body>
